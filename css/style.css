@@ -1,21 +1,140 @@
+p{
+    font-size: 4vw;
+text-align: center;
 
+}
 #content_salone {
-    padding: 5px;
+    padding: 20px;
     background-color:rgb(157, 38, 38);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 #content_scuola_aperta {
-    padding: 5px;
-    background-color:rgb(202, 204, 47);
+    padding: 20px;
+    background-color:#cacc2f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #content_denina {
-    padding: 5px;
+    padding: 20px;
     background-color:#4170B9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #content_pellico {
-    padding: 5px;
+    padding: 20px;
     background-color:#f4980a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #content_rivoira {
-    padding: 5px;
+    padding: 20px;
     background-color:#58b02e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.col{
+    border-radius: 10px;
+    
+}
+.row{
+    border:white 10px solid;
+}
+.container{ 
+color: white;
+}
+a{
+    color: turquoise!important;
+}
+.container{
+    width: 80%!important;
+}
+.titolo{
+    font-size: 4vw;
+}
+#elettro{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom:#58b02e 5px solid;
+    border-radius: 10px;
+}
+#info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+#elettro > a ,#info > a{  
+    color:#58b02e!important;
+    font-size: 4vw;
+
+}
+#legno > a ,#sociale > a,#comm > a{  
+    color:#f4980a!important;
+    font-size: 4vw;
+
+}
+#legno,#sociale,#comm{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom:#f4980a 5px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+#geo > a ,#sia > a,#mark > a{  
+    color:#4170B9!important;
+    font-size: 4vw;
+
+}
+#geo,#sia,#mark{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom:#4170B9 5px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#elettro:hover ,#info:hover{  
+    background-color: #b2f194;
+}
+
+#legno:hover ,#sociale:hover,#comm:hover{  
+    background-color: #ffcb7d;
+}
+#geo:hover ,#sia:hover,#mark:hover{  
+    background-color: #93b6ee;
+}
+#prenota{
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom:#cacc2f 5px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+#prenota > a {  
+    color:#cacc2f!important;
+    font-size: 4vw;
+}
+#prenota:hover{  
+    background-color: #eaebb2;
+}
+.sottotit{
+    font-size: 3vw;
 }
